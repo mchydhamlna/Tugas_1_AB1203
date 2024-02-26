@@ -13,7 +13,7 @@ function main()
     print("Jumlah digit: " + jumlahDigit)
 End Function
 ```
-Penjelasan kode di atas, dimulai dengan menggunakan variabel "bilangan" untuk menyimpan bilangan yang dimasukkan pengguna. Kemudian, kode ini akan menginisialisasi variabel jumlahDigit dengan angka 0. Setelah itu loop (Pengulangan) While dilakukan sampai digit tidak lagi sama dengan angka 0. Dalam setiap iterasi, kode ini akan menghitung sisa bagi digit dengan 10, menambahkan 1 ke jumlahDigit, dan menghapus digit terakhir dari bilangan dengan menggunakan operator pembagian (/). Setelah selesai, maka kode selesai dan akan ditampilkan hasil jumlah digit yang telah dihitung.
+Penjelasan kode di atas, dimulai dengan menggunakan variabel "bilangan" untuk menyimpan bilangan yang dimasukkan pengguna. Kemudian, kode ini akan menginisialisasi variabel "jumlahDigit" dengan angka 0. Setelah itu loop (Pengulangan) While dilakukan sampai digit tidak lagi sama dengan angka 0. Dalam setiap iterasi, kode ini akan menghitung sisa bagi digit dengan 10, menambahkan 1 ke jumlahDigit, dan menghapus digit terakhir dari bilangan dengan menggunakan operator pembagian (/). Setelah selesai, maka kode selesai dan akan ditampilkan hasil jumlah digit yang telah dihitung.
 
 # MASALAH 2
 Buatlah pseudocode untuk menentukan apakah sebuah tahun yang dimasukkan pengguna adalah tahun kabisat atau tidak.
