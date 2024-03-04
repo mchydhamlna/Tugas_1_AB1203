@@ -18,8 +18,9 @@ if (data_alamat_terdaftar)
     nomor_telepon = nomor; //jika terdaftar maka nomor telepon akan di teruskan ke user
 else if (data_alamat_salah) //jika data yang dimasukan user salah
     nomor_telepon = 108;
-else if (data_alamat_tidak_mempunyai_sambungan) //jika data yang dimasukan user tidak mempunyai sambungan atau belum terdaftar di database
+else if (data_alamat_tidak_mempunyai_sambungan) //jika data yang dimasukan user tidak mempunyai sambungan atau nomor telepon sibuk
     nomor_telepon = 108;
+write ("Nomor Telepon Sibuk")
 read (nomor_telepon)
 write ("Nomor telepon anda : nomor_telepon")
 End Function
@@ -34,7 +35,7 @@ Dilanjutkan dengan melakukan perintah "query" pada database yang bertujuan untuk
 akan di cocokan dengan alamat dan nomor yang dimasukan. 
 Setelah pencarian informasi menggunakan perintah tersebut akan dilakukan pengecekan menggunakan "if" jika cocok maka nomor telepon akan ditampilkan dan disimpan ke
 variable (nomor_telepon), dan jika Alamat yang dimasukan salah maka user akan ditampilkan nomor "108" yang merupakan nomor sibuk atau layanan pelanggan PT Telkom,
-dan jika Alamat tidak mempunyai sambungan atau tidak terdaftar di database maka user akan ditampilkan nomor sibuk yang sama yaitu "108".
+dan jika Alamat tidak mempunyai sambungan atau nomor 108 sedang sibuk maka user akan ditampilkan nomor yang sama yaitu "108".
 Algoritma selesai dan nomor akan ditampilkan ke monitor.
 
 # Masalah 2
