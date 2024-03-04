@@ -53,7 +53,7 @@ until kantung permen kosong
 Pada keadaan bagaimana algoritma tersebut gagal?
 
 ## Penyelesaian :
-Algoritma tersebut akan gagal dan berhenti jika jumlah permen yang di bagikan ke 3 anak adalah 0. Dan jika jumlah permen yang dibagikan telah habis dibagi secara berulang-ulang ke 3 anak tersebut.
+Algoritma tersebut akan gagal dan berhenti jika jumlah permen yang di bagikan ke 3 anak adalah 0. Dan jika jumlah permen yang dibagikan adalah genap dan secara berulang-ulang ke 3 anak tersebut.
 
 ## Referensi
 https://www.dewaweb.com/blog/apa-itu-query/
