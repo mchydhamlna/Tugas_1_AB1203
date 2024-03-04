@@ -35,7 +35,7 @@ Dilanjutkan dengan melakukan perintah "query" pada database yang bertujuan untuk
 akan di cocokan dengan alamat dan nomor yang dimasukan. 
 Setelah pencarian informasi menggunakan perintah tersebut akan dilakukan pengecekan menggunakan "if" jika cocok maka nomor telepon akan ditampilkan dan disimpan ke
 variable (nomor_telepon), dan jika Alamat yang dimasukan salah maka user akan ditampilkan nomor "108" yang merupakan nomor sibuk atau layanan pelanggan PT Telkom,
-dan jika Alamat tidak mempunyai sambungan atau nomor 108 sedang sibuk maka user akan ditampilkan nomor yang sama yaitu "108".
+dan jika Alamat tidak mempunyai sambungan atau nomor 108 sedang sibuk maka user akan ditampilkan nomor yang sama yaitu "108" dan akan muncul pesan nomor sedang sibuk.
 Algoritma selesai dan nomor akan ditampilkan ke monitor.
 
 # Masalah 2
