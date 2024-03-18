@@ -1,4 +1,4 @@
-# TUGAS 3
+# Coding Lab
 
 Membuat program untuk menghitung Luas dan Keliling Persegi Panjang
 
